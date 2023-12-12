@@ -456,3 +456,35 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content form {
+  padding: 15px;
+}
+
+.dropdown-content label,
+.dropdown-content input,
+.dropdown-content button {
+  display: block;
+  margin-bottom: 10px;
+}
